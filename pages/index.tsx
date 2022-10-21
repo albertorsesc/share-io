@@ -1,16 +1,26 @@
 import axios from 'axios';
-import type { NextPage } from 'next';
+import NoResults from '../components/NoResults';
+import VideoCard from '../components/VideoCard';
+import { Video } from '../types';
 
-// interface IProps {
-//   videos: {}
-// }
+interface IProps {
+  videos: Video[]
+}
 
-const Home: NextPage = ({ videos }) => {
+const Home = ({ videos }: IProps) => {
   console.log(videos);
 
   return (
-    <div className='text-teal-400 text-xl'>
-      ShareIO
+    <div className='flex flex-col gap-10 videos h-full'>
+      {
+        videos.length ? (
+          videos.map((video: Video) => (
+            <VideoCard post={video} key={video._id} />
+          ))
+        ) : (
+          <NoResults text='No Videos yet.' />
+        )
+      }
     </div>
   )
 }

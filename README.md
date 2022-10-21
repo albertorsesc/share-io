@@ -10,6 +10,6 @@ cd shareio-sanity;
 npm i;
 ```
 
-
+https://www.npmjs.com/package/@react-oauth/google
 
 ShareIO is the app's placeholder name and I don't own or am related to the company(ies) that might have a similar name. (It was the first name that came to mind.)
