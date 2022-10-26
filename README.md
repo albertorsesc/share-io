@@ -15,6 +15,7 @@ account.
 git clone https://github.com/albertorsesc/share-io.git;
 cd share-io;
 npm i;
+npm run dev;
 cd shareio-sanity;
 npm i;
 sanity login;
