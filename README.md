@@ -24,5 +24,18 @@ sanity deploy;
 sanity start;
 ```
 
->info
-ShareIO is the app's placeholder name and I don't own or am related to the company(ies) that might have a similar name. (It was the first name that came to mind.)
+#### Features
+
+* [x] Sign in/out using Google Identity.
+* [x] Upload Videos to Sanity.io.
+* [x] Play/Pause/Mute uploaded Videos.
+* [x] Visit the Video details.
+* [x] Comment on a Video.
+* [x] Filter Videos by Topic.
+* [x] Search Accounts or Videos.
+* [x] Visit Suggested Accounts.
+
+---
+
+
+>ShareIO is the app's placeholder name and I don't own or am related to the company(ies) that might have a similar name. (It was the first name that came to mind.)
